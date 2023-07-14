@@ -66,7 +66,8 @@ extension NetworkInjector {
         injectURLSessionUploadTasks()
 
         // Websocket
-        injectURLSessionWebsocketTasks()
+        //Commenting it out as it's leading to crashes
+        // injectURLSessionWebsocketTasks()
     }
 
     private func injectIntoURLSessionDelegate(anyClass: AnyClass) {
